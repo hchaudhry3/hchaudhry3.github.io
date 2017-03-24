@@ -1,0 +1,21 @@
+{
+  "name": "hchaudhry3.github.io",
+  "homepage": "https://github.com/hchaudhry3/hchaudhry3.github.io",
+  "authors": [
+    "Hosna C <hchaudhry3@gatech.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
