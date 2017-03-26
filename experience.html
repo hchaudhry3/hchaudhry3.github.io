@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hosna Chaudhry - About me</title>
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="styles/style.css" rel="stylesheet" type="text/css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+
+    <body class="container-fluid">
+        <!-- header -->
+        <header class="row text-center"></header>
+        <div class="container" id="header-placeholder"></div>
+        <!--header-->
+
+        <!-- content -->
+        <div class="container">
+            </br>
+            </br>
+            </br>
+            <div class="row">
+                <center><h1>Relevant Work Experience</h1></center>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 col-md-push-3"
+                        <p>During my time as a student at Georgia Tech, I've had the opportunity to intern with Manhattan Associates, a software company specializing in consulting. </p>
+                        <p>Throughout the span of my first rotation at Manhattan, I worked as a Technical Analyst. I spent my days working on unresolved JIRA tickets addressing bugs found in customer base code, managing internal Salesforces cases, and querying customer databases to ensure that no inconsistencies existed. 
+                        </p>
+                        <p>My second rotation, I worked as a Software Engineering Intern for the Research and Development Department. I developed a Windows Service utilizing RESTful services to automate file uploads for Veracode Scanning using Jenkins. For the remainder of my rotation, I worked heavily in SQL Server, developing a maintenance plan using server audits to automate the clean-up of wasted disk space caused by unnecessary or unused databases. 
+                        </p>
+                        </br>
+                        </br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-push-2">
+                        <img src="images/group.jpg" alt="picture of me">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- content -->
+
+        <!--footer-->
+        <div class="container" id="footer-placeholder"></div>
+        <!--footer-->
+
+        <!-- Scripts -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script>
+        $.get("header.html", function(data) {
+            $("#header-placeholder").replaceWith(data);
+        });
+        </script>
+
+        <script>
+        $.get("footer.html", function(data) {
+            $("#footer-placeholder").replaceWith(data);
+        });
+        </script>    
+        <!-- Scripts -->
+
+    </body>
+
+</html>
