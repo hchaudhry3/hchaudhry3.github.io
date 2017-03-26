@@ -11,10 +11,17 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="container-fluid">
+    <header class="row text-center"></header>
+
+    <?php include 'header.php'; ?> 
+
     <div class="container">
+    </br>
+    </br>
+    </br>
         <h1>Hosna Chaudhry</h1>
-        <button>testbutton</button>
+        <!-- <?php echo '<a href="project.php">projects</a>';?>-->
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
