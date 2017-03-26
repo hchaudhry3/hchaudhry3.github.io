@@ -14,7 +14,9 @@
 <body class="container-fluid">
     <header class="row text-center"></header>
 
-    <?php include 'header.php'; ?> 
+    <!--<?php include 'header.php'; ?> -->
+
+    <div class="container" id="header-placeholder"></div>
 
     <div class="container">
     </br>
@@ -26,6 +28,12 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+    $.get("header.html", function(data) {
+        $("#header-placeholder").replaceWith(data);
+    });
+    </script>
 
 </body>
 
