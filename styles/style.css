@@ -1,3 +1,18 @@
-body {
-    background-color: pink;
+.font-awesome {
+    text-align: center;
+    padding: 25px;
 }
+
+.center {
+    text-align: center;
+}
+
+/*this doesnt work*/
+/*i {
+    padding-right: 25px;
+}
+
+footer {
+    padding: 10px;
+}
+*/
