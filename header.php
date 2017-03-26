@@ -20,7 +20,7 @@
                     <li class=""><a href="#">Home</a></li>
                     <li class=""><a href="#">About</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle"
+                        <a href="project.php" class="dropdown-toggle"
                         data-toggle="dropdown">Projects
                         <b class="caret"></b>
                             <ul class="dropdown-menu">
