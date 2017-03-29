@@ -1,7 +1,12 @@
 body { 
-    background-color: white;
+    background-color: #F9F9FF;
     /*padding-bottom: 240px;*/
     margin-bottom: 60px;
+}
+
+.navbar {
+    background-color: #C8C8FF;
+    color: black;
 }
 
 .font-awesome {
